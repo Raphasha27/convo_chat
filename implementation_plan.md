@@ -91,3 +91,5 @@
 - Message search ✅
 - Dark mode ✅
 - Push notifications ✅ (Permissions UI Added)
+- **Blue Theme Refresh** ✅ (Messenger-inspired blue UI)
+- **GitHub Repository** ✅ (convo_chat repo created)
