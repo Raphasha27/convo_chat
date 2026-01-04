@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --bg-chat: #efeae2;
+  --bg-sidebar: #ffffff;
+  --text-primary: #1f2937;
+  --text-secondary: #6b7280;
+  --border-color: #e5e7eb;
+  --message-out: #e3efff;
+  --message-in: #ffffff;
+  --primary: #0084ff;
+}
+
+.dark {
+  --bg-primary: #0b141a;
+  --bg-secondary: #010c14;
+  --bg-chat: #080f14;
+  --bg-sidebar: #0b141a;
+  --text-primary: #e9edef;
+  --text-secondary: #8696a0;
+  --border-color: #202c33;
+  --message-out: #005696;
+  --message-in: #202c33;
+  --primary: #3399ff;
+}
+
+@layer base {
+  body {
+    @apply transition-colors duration-300;
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+  }
+}
+
+@layer utilities {
+  .bg-theme-primary { background-color: var(--bg-primary); }
+  .bg-theme-secondary { background-color: var(--bg-secondary); }
+  .bg-theme-chat { background-color: var(--bg-chat); }
+  .bg-theme-sidebar { background-color: var(--bg-sidebar); }
+  .text-theme-primary { color: var(--text-primary); }
+  .text-theme-secondary { color: var(--text-secondary); }
+  .border-theme { border-color: var(--border-color); }
+  .bg-message-out { background-color: var(--message-out); }
+  .bg-message-in { background-color: var(--message-in); }
+  
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.2);
+    border-radius: 3px;
+  }
+  .dark .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.2);
+  }
+}
