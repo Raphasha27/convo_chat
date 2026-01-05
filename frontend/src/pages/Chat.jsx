@@ -1251,7 +1251,7 @@ const Chat = () => {
                         <div className="w-40 h-40 bg-white dark:bg-gray-800 shadow-xl rounded-full flex items-center justify-center mb-8 animate-bounce transition-all">
                              <span className="text-7xl">💬</span>
                         </div>
-                        <h2 className="text-4xl font-black text-gray-800 dark:text-white mb-3 tracking-tight">CONVO <span className="text-primary font-light">Web</span></h2>
+                        <h2 className="text-4xl font-black text-gray-800 dark:text-white mb-3 tracking-tight">CONVO <span className="text-primary font-light">Web v2</span></h2>
                         <p className="text-center max-w-sm text-gray-500 dark:text-gray-400 font-medium">
                             End-to-end encrypted messaging for your desktop.
                             Start by selecting a chat or adding a new friend.
