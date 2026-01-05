@@ -571,7 +571,7 @@ const Chat = () => {
                         </div>
                         <div>
                             <span className="font-semibold text-gray-800 block leading-tight">{user?.username}</span>
-                            <span className="text-[10px] text-green-600 font-bold uppercase tracking-wide">Online</span>
+                            <span className="text-[10px] text-blue-600 font-bold uppercase tracking-wide">Online</span>
                         </div>
                     </div>
                     <div className="flex space-x-1">
@@ -659,7 +659,7 @@ const Chat = () => {
                                         className="w-40 h-40 rounded-full object-cover border-4 border-white shadow-xl"
                                     />
                                 ) : (
-                                    <div className="w-40 h-40 rounded-full bg-gradient-to-br from-primary to-green-600 flex items-center justify-center text-5xl font-bold text-white border-4 border-white shadow-xl">
+                                    <div className="w-40 h-40 rounded-full bg-gradient-to-br from-primary to-blue-600 flex items-center justify-center text-5xl font-bold text-white border-4 border-white shadow-xl">
                                         {profileForm.username?.charAt(0).toUpperCase() || '?'}
                                     </div>
                                 )}
@@ -718,7 +718,7 @@ const Chat = () => {
                                 >
                                     {socialLoading ? 'Updating...' : 'Save Changes'}
                                 </button>
-                                {socialSuccess && <p className="text-green-600 text-center text-sm">{socialSuccess}</p>}
+                                {socialSuccess && <p className="text-blue-600 text-center text-sm">{socialSuccess}</p>}
                                 {socialError && <p className="text-red-500 text-center text-sm">{socialError}</p>}
                             </form>
                         </div>
@@ -768,7 +768,7 @@ const Chat = () => {
                                 <button 
                                     type="submit"
                                     disabled={socialLoading || !groupName || selectedMembers.length === 0}
-                                    className="w-full py-4 bg-primary text-white rounded-xl font-bold shadow-lg hover:bg-green-700 transition disabled:opacity-50"
+                                    className="w-full py-4 bg-primary text-white rounded-xl font-bold shadow-lg hover:bg-blue-700 transition disabled:opacity-50"
                                 >
                                     {socialLoading ? 'Creating...' : 'Create Group'}
                                 </button>
@@ -816,7 +816,7 @@ const Chat = () => {
                             </form>
 
                             {socialError && <p className="text-red-500 text-sm mt-2">{socialError}</p>}
-                            {socialSuccess && <p className="text-green-600 text-sm mt-2 flex items-center"><Check size={16} className="mr-1" /> {socialSuccess}</p>}
+                            {socialSuccess && <p className="text-blue-600 text-sm mt-2 flex items-center"><Check size={16} className="mr-1" /> {socialSuccess}</p>}
 
                             <div className="mt-8 pt-6 border-t border-gray-100 text-center">
                                 <span className="text-xs text-gray-400 uppercase tracking-widest font-semibold block mb-4">Or Share Link</span>

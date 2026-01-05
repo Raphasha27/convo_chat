@@ -101,7 +101,7 @@ const CallOverlay = ({ activeCall, onEndCall, socket, currentUser }) => {
                 {/* Info */}
                 <div className="absolute top-8 left-8">
                     <h2 className="text-2xl font-bold">{activeCall.partner_name}</h2>
-                    <p className="text-green-400">Ongoing {activeCall.type} call...</p>
+                    <p className="text-blue-400">Ongoing {activeCall.type} call...</p>
                 </div>
 
                 {/* Controls */}
