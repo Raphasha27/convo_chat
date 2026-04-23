@@ -1,8 +1,15 @@
-# CONVO 💬
+# 🏛️ KIROV DYNAMICS | CONVO CHAT (v2.0)
 
-**CONVO** is a modern, feature-rich real-time chat application built with React and FastAPI. It provides a seamless messaging experience with advanced features like voice notes, emoji support, stickers, dark mode, and real-time notifications.
+[![Kirov Dynamics](https://img.shields.io/badge/Kirov_Dynamics-Sovereign_Intelligence-002D62?style=for-the-badge&labelColor=0d1117)](https://github.com/Raphasha27)
+![Status](https://img.shields.io/badge/Status-🚀_Active-3fb950?style=for-the-badge&labelColor=0d1117)
 
+> **"Sovereign Communication for a Connected Future."**
+
+## 🖼️ Visual Showcase
 ![CONVO Main Interface](screenshots/light_mode_main.png)
+
+---
+**CONVO** is a modern, feature-rich real-time chat application built with React and FastAPI. It provides a seamless messaging experience with advanced features like voice notes, emoji support, stickers, dark mode, and real-time notifications. Developed as a secure communication asset within the **Kirov Dynamics** ecosystem.
 
 ## ✨ Features
 
@@ -107,29 +114,6 @@ npm run dev -- --host 0.0.0.0 --port 5173
 - Backend API: http://localhost:8000
 - API Docs: http://localhost:8000/docs
 
-## 📱 Usage
-
-### Creating an Account
-1. Click "Sign up" on the login page
-2. Enter your username, email, and password
-3. Click "Register" to create your account
-
-### Starting a Chat
-1. Click the "Discover People" button
-2. Browse available users
-3. Click on a user to start chatting
-
-### Sending Messages
-- **Text**: Type your message and press Enter or click Send
-- **Emoji**: Click the smile icon (😀) to open the emoji picker
-- **Sticker**: Click the image icon to open the sticker panel
-- **Voice Note**: Click the mic icon (🎤) to start recording, click stop when done, then send
-- **File**: Click the paperclip icon to attach files
-
-### Customization
-- **Dark Mode**: Toggle using the moon/sun icon in the sidebar
-- **Settings**: Click the gear icon to access notification preferences
-
 ## 📁 Project Structure
 
 ```
@@ -185,18 +169,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👤 Author
-
-**Raphasha27**
-- GitHub: [@Raphasha27](https://github.com/Raphasha27)
-
-## 🙏 Acknowledgments
-
-- React team for the amazing framework
-- FastAPI creators for the powerful backend framework
-- Lucide for the beautiful icons
-- TailwindCSS for the styling utilities
-
 ---
+*Developed by Raphasha27 - Kirov Dynamics 2026.*
 
-⭐ If you like this project, please give it a star on GitHub!
