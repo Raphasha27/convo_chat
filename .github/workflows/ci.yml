@@ -15,7 +15,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: cache-dependency-path: './frontend/package-lock.json'
+          node-version: 20
+          cache-dependency-path: './frontend/package-lock.json'
       - name: Install dependencies
         run: npm install
       - name: Build
@@ -30,7 +31,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: - name: Install dependencies
+          python-version: -
+    name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
@@ -40,7 +42,8 @@ jobs:
   security_scan: 
     name: Security Scan (Trivy)
     needs: [frontend, backend]
-    runs-on: - uses: actions/checkout@v4
+    runs-on: -
+    uses: actions/checkout@v4
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:
